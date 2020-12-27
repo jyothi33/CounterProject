@@ -28,7 +28,7 @@ function convertToMinutesSecond(timeleft){
     if(sec < 10){
         sec = "0"+sec;
     }
-    return "0"+min + ":" + sec;
+    return "0"+min + ":" + sec; 
 }
 
 //Gets invoked every second and which updates the timer on screen with the newly calculated timer value.
